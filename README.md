@@ -1,10 +1,13 @@
-# FlutterCon Europe 2024
+# Archived collection of FlutterCon Europe 2024 content 
 
 
-Collection of Fluttercon 2024 content. :)
-## Contribution
+I merged this repo into [Andrea Bizzottos repo](https://github.com/bizz84/ftcon24eu_talks) 
 
-Please fill any content info exclusively to the .json files inside the [talks/ directory](https://github.com/martin-bertele/ftcon24eu/tree/main/talks). All .md-files will be generated via script `dart run .automation/generate_markdowns.dart` triggered by Github Action. If you enjoy any other view of the data, you could look at the [scripts](https://github.com/martin-bertele/ftcon24eu/tree/main/.automation) as a starting point to add yours. Happy to recieve your PRs :)
+## Contribution redirect
+
+If you are a speaker and have received a personalised contribution invitation to your json file, you will find it by replacing the repo link. Replace >martin-bertele/ftcon24eu< with >bizz84/ftcon24eu_talks< 
+
+Please contribute exclusively to [Andrea Bizzottos repo](https://github.com/bizz84/ftcon24eu_talks) 
 
 ## Acknowledgement
 

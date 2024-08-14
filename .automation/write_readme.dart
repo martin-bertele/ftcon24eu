@@ -5,13 +5,17 @@ import 'models/models.dart';
 void writeReadme(List<Talk> talks) async {
   final readmeContent = StringBuffer();
 
-  readmeContent.writeln('# FlutterCon Europe 2024\n\n');
-
-  readmeContent.writeln('Collection of Fluttercon 2024 content. :)');
-
-  readmeContent.writeln('## Contribution\n');
+  readmeContent
+      .writeln('# Archived collection of FlutterCon Europe 2024 content \n\n');
   readmeContent.writeln(
-      'Please fill any content info exclusively to the .json files inside the [talks/ directory](https://github.com/martin-bertele/ftcon24eu/tree/main/talks). All .md-files will be generated via script \`dart run .automation/generate_markdowns.dart\` triggered by Github Action. If you enjoy any other view of the data, you could look at the [scripts](https://github.com/martin-bertele/ftcon24eu/tree/main/.automation) as a starting point to add yours. Happy to recieve your PRs :)\n');
+      'I merged this repo into [Andrea Bizzottos repo](https://github.com/bizz84/ftcon24eu_talks) \n');
+  readmeContent.writeln('## Contribution redirect\n');
+
+  readmeContent.writeln(
+      'If you are a speaker and have received a personalised contribution invitation to your json file, you will find it by replacing the repo link. Replace >martin-bertele/ftcon24eu< with >bizz84/ftcon24eu_talks< \n');
+
+  readmeContent.writeln(
+      'Please contribute exclusively to [Andrea Bizzottos repo](https://github.com/bizz84/ftcon24eu_talks) \n');
 
   readmeContent.writeln('## Acknowledgement\n');
   readmeContent.writeln(
